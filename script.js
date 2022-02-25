@@ -3,5 +3,8 @@
 /* è nella lista di quelli che possono accedere ? */
 /* se si, scrivi un messaggio appropriato, se no, scrivi un messaggio appropriato alla risposta negativa */
 
-const emailUtente = [ "ciccio.pasticcio@ciccio.com", "ci.si.becca@ciccio.com", "bella.raga@ciccio.com", "okkeeeeeiiii@ciccio.com"];
+
+const emailUtente = prompt("inserisci emali");
+const emailNecessarie = [ "ciccio.pasticcio@ciccio.com", "ci.si.becca@ciccio.com", "bella.raga@ciccio.com", "okkeeeeeiiii@ciccio.com"];
+
 
