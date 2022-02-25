@@ -27,3 +27,20 @@ for(i = 0; i<= emailNecessarie.length; i++){
 /* generiamo un numero casuale da 1 a 6 dato dal PC */
 /* se il pc fa genera il numero più grande stampare "IA vince" se è il giocatore a fare il n più grande, stampare "Human vince" */
 /* nel caso di pareggio stampare "ritiriamo" */
+
+
+const pcNumber = Math.floor(Math.random()*6) + 1;
+console.log(pcNumber + " numero PC");
+
+const humanNumber = Math.floor(Math.random()*6) + 1;
+console.log( humanNumber + " numero HUMAN")
+
+if( pcNumber < humanNumber){
+    console.log( "IL VINCOTORE è L'UMANOOOOO DAJEEEE")
+}
+else if( pcNumber > humanNumber){
+    console.log( "il vicnitore è IA..." )
+}
+else{
+    console.log("Pareggio.. ritirate")
+}
