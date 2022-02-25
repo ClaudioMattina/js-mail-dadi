@@ -11,7 +11,7 @@ const emailNecessarie = [ "ciccio.pasticcio@ciccio.com", "ci.si.becca@ciccio.com
 
 for(i = 0; i<= emailNecessarie.length; i++){
 
-    if(emailUtente == emailNecessarie.includes[0,1,2,3]){
+    if(emailUtente.includes == emailNecessarie) {
         console.log("bravo");
     }
     else{
