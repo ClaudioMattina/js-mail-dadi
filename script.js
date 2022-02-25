@@ -7,11 +7,11 @@
 const emailUtente = prompt("inserisci emali");
 const emailNecessarie = [ "ciccio.pasticcio@ciccio.com", "ci.si.becca@ciccio.com", "bella.raga@ciccio.com", "okkeeeeeiiii@ciccio.com"];
 
-
+console.log(emailNecessarie)
 
 for(i = 0; i<= emailNecessarie.length; i++){
 
-    if(emailUtente.includes == emailNecessarie) {
+    if(emailNecessarie.includes(emailUtente)) {
         console.log("bravo");
     }
     else{
